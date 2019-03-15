@@ -51,6 +51,7 @@ time, mark, audio, video {
 
 #header {
 	width: 100%;
+
 	background: url('images/background.png') no-repeat;
 	background-size: cover;
 	padding-top: 44px;
@@ -86,11 +87,13 @@ a {
 }
 
 .climber-community {
-	width: 40%;
+
 	display: flex;
 	justify-content: flex-start;
-	margin: 195px 375px 0px 375px;
+	margin: 40px auto;
 	flex-direction: column;
+	flex-wrap: wrap;
+
 
 
 }
@@ -113,16 +116,15 @@ a {
 .button {
 	display: flex;
 	justify-content: center;
-	width: 100px;
+	width:30% ;
 	height: 50px;
 	border-radius: 30px;
-
 	font-size: 24px;
-
 	background-color: rgba(255, 255, 255, 255);
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 30px;
+	margin-bottom: 40px;
 	cursor: pointer;
 
 
@@ -263,8 +265,12 @@ p.smaller-text img {
 }
 
 .header-main {
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	margin-top: 40px;
+	align-items: baseline;
+	margin-bottom: 40px;
 
 }
 
@@ -273,13 +279,15 @@ p.smaller-text img {
 	font-size: 18px;
 	color: rgba(255, 255, 255, 255);
 	text-transform: uppercase;
+	margin-right: 500px;
+
 }
 
-.event-text img {
+/* .event-text img {
 	padding-right: 10px;
 	margin-top: 100px;
 	margin-left: 178px;
-}
+} */
 
 
 .search-box {
@@ -287,8 +295,8 @@ p.smaller-text img {
 	height: 50px;
 	border: 1px #fff solid;
 	border-radius: 30px;
-	margin-top: 90px;
-	margin-right: 178px;
+	/* margin-top: 90px;
+	margin-right: 178px; */
 
 }
 
@@ -308,11 +316,14 @@ p.smaller-text img {
 
 
 .menu{
+	width:75%;
 	display: flex;
 	justify-content: space-between;
-	padding: 90px 178px 0px 178px;
-
+	margin: 0 auto;
+	flex-wrap: wrap;
 }
+
+
 
 .menu span {
 	font-family: ﻿HelveticaNeue, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
@@ -327,6 +338,7 @@ p.smaller-text img {
 	height: 3px;
 	margin: 0 auto;
 	margin-top: 15px;
+	margin-bottom: 40px;
 
 }
 
@@ -337,17 +349,23 @@ p.smaller-text img {
 }
 
 .first-travel-line {
+	width: 100%;
+	margin: 0 auto;
+
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	padding: 90px 178px 8px 178px;
+	justify-content: center;
+	/* padding: 90px 178px 8px 178px; */
 	flex-wrap: wrap;
+	margin-bottom: 10px;
 }
 
 .line-block {
 	background: #ffffff;
 	border-radius: 10px;
 	/* height: 280px; */
+	margin-left: 15px;
+
 }
 
 .title-text {
@@ -392,7 +410,7 @@ p.smaller-text img {
 	background: #305f7d;
 	margin-left: 119px;
 	margin-top: 15px;
-	/*margin-bottom: 17px;*/
+	margin-bottom: 10px;
 }
 
 .button-more p {
@@ -409,9 +427,11 @@ p.smaller-text img {
 
 .second-travel-line {
 	display: flex;
+	width: 100%;
+	margin: 0 auto;
 	flex-direction: row;
-	justify-content: space-between;
-	padding: 16px 178px 106px 178px;
+	justify-content: center;
+	margin-bottom: 40px;
 	flex-wrap: wrap;
 }
 
