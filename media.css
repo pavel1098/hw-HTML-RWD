@@ -1,0 +1,74 @@
+@media screen and (max-width: 520px) {
+
+.header-button {
+	display: none;
+}
+
+.header-bottom {
+	display: none;
+}
+
+.climber-block {
+	width: 300px;
+}
+
+.description {
+	display: none;
+}
+
+.name {
+	font-size: 12pt;
+}
+
+.portfolio_description {
+	margin: auto auto;
+}
+
+.bigger-text {
+	font-size: 20pt;
+}
+
+.smaller-text {
+	font-size: 12pt;
+}
+
+
+
+.menu {
+	display: none;
+}
+
+.underline {
+	display: none;
+}
+
+.line-block {
+	width: 45%;
+	margin: 10px auto;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width:850px) {
+	.header-button {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.underline {
+		display: none;
+	}
+
+	.bigger-text {
+		font-size: 20pt;
+	}
+
+	.smaller-text {
+		font-size: 12pt;
+	}
+
+	
+
+}
