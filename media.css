@@ -32,8 +32,6 @@
 	font-size: 12pt;
 }
 
-
-
 .menu {
 	display: none;
 }
@@ -43,12 +41,24 @@
 }
 
 .line-block {
-	width: 45%;
+	width: 100%;
 	margin: 10px auto;
+}
+
+.footer-top-text {
+	margin: 54px 85px;
+}
+
+.main-text-news {
+	margin-right: 20px;
+}
+
+.follow-us {
+	justify-content: center;
 }
 }
 
-@media screen and (min-width: 480px) and (max-width:850px) {
+@media screen and (min-width: 520px) and (max-width:850px) {
 	.header-button {
 		display: none;
 	}
@@ -69,6 +79,18 @@
 		font-size: 12pt;
 	}
 
-	
+	.footer-top-text {
+		margin: 54px 85px;
+	}
 
+	.line-block {
+		width: 40%;
+	}
+
+}
+
+@media screen and (max-width: 300px) {
+	.footer-bar {
+		display: none;
+	}
 }
